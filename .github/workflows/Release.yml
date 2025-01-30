@@ -67,46 +67,38 @@ jobs:
             flutter_version: '2.10.3'
             go_version: '1.17'
           - target: ios
-            host: macos-12
+            host: macos-latest
             flutter_version: '2.10.5'
-            go_version: '1.19'
+            go_version: '1.23'
           - target: ios
             host: macos-latest
             flutter_version: '3.7.3'
-            go_version: '1.19'
+            go_version: '1.23'
           - target: android-arm32
             host: ubuntu-latest
             flutter_version: '2.10.5'
-            go_version: '1.19'
+            go_version: '1.23'
           - target: android-arm64
             host: ubuntu-latest
             flutter_version: '2.10.5'
-            go_version: '1.19'
+            go_version: '1.23'
           - target: android-x86_64
             host: ubuntu-latest
             flutter_version: '2.10.5'
-            go_version: '1.19'
+            go_version: '1.23'
           - target: android-arm32
             host: ubuntu-latest
             flutter_version: '3.7.3'
-            go_version: '1.19'
+            go_version: '1.23'
           - target: android-arm64
             host: ubuntu-latest
             flutter_version: '3.7.3'
-            go_version: '1.19'
+            go_version: '1.23'
           - target: android-x86_64
             host: ubuntu-latest
             flutter_version: '3.7.3'
-            go_version: '1.19'
+            go_version: '1.23'
 
-          - target: ios
-            host: macos-latest
-            flutter_version: '3.22.3'
-            go_version: '1.19'
-          - target: android-arm64
-            host: ubuntu-latest
-            flutter_version: '3.24.2'
-            go_version: '1.19'
 
     runs-on: ${{ matrix.config.host }}
 
